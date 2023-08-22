@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+             *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+              }
+            .header{
+                    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('img6.jpg');
+                    background-position: center;
+                    background-size: cover;
+                    width:100%;
+                    height:100vh;
+                  }
+            .places {
+                   position: absolute;
+                   bottom: 8px;
+                   left: 16px;
+                  }
+             .card{
+              transition: all 0.3s;
+               }
+             .card:hover{
+                color:gray;
+                transform: scale(1.15);
+              }
+            .about img{
+                transition: all 1.5s ease;
+            }
+            h2::first-letter{
+              color:blue;
+              font-size: 140%;
+            }
+        </style>
+</head>
+<body>
+    <section class="header">  
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg navbar-dark py-2 ">
+                      <h1 class="Logo" style="color: white;">Travello</h1>
+                           <img class="navbar-brand me-auto rounded-circle" height="95" src="logo.jpg" alt="" >
+                                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                                  <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse justify-content-between " id="navbarCollapse"> 
+                                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                     <li><a class="nav-link" href="" style="font-size: 18px;">Home</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                     <li><a class="nav-link" href="" style="font-size: 18px;">Services</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                     <li><a class="nav-link" href="" style="font-size: 18px;">About</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                     <li><a class="nav-link" href="" style="font-size: 18px;">Contact</a></li>
+                                    </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </div>    
+                    </nav>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <section id="middle" class=" text-white text-center  py-5">
+                          <div class="container">
+                               <h1>Welcome to our tours </h1>
+                               <p>Experience the beauty of nature</p>
+                               <a href="#about" class="btn btn-primary btn-lg">Learn More</a>
+                          </div>
+                    </section>  
+                  </div> 
+                </div>
+            </div>
+        </div>
+    </section>                
+   <section id="places" class=" py-5">
+          <div class="container">
+              <h2 class="text-center">Popular Destinations</h2><br>
+                  <div class="row">
+                      <div class="col-md-4">
+                          <div class="card shadow">
+                              <img src="img3.jpg" class="card-img-top" alt="Service 1">
+                                  <div class="card-img-overlay">
+                                       <h5>Agra</h5>
+                                  </div> 
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                             <div class="card shadow">
+                                  <img src="img4.jpg" class="card-img-top" height="230px" alt="Service 2">
+                                        <div class="card-img-overlay">
+                                          <h5 class="card-title">Jaipur</h5>
+                                        </div>
+                               </div>
+                      </div>
+                      <div class="col-md-4">
+                                <div class="card shadow">
+                                     <img src="img5.jpg" class="card-img-top" height="230px" alt="Service 3">
+                                        <div class="card-img-overlay">
+                                               <h5 class="card-title">Kerla</h5>
+                                        </div>
+                                </div>
+                      </div>
+                  </div><br>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card shadow">
+                           <img src="img7.jpg" class="card-img-top" height="230px" alt="Service 3">
+                              <div class="card-img-overlay">
+                                     <h5 class="card-title">Rajastan</h5>
+                              </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card shadow">
+                           <img src="img8.jpg" class="card-img-top" height="230px" alt="Service 3">
+                              <div class="card-img-overlay">
+                                     <h5 class="card-title">Munnar</h5>
+                              </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card shadow">
+                           <img src="img9.jpg" class="card-img-top" height="230px" alt="Service 3">
+                              <div class="card-img-overlay">
+                                     <h5 class="card-title">Jodhpur</h5>
+                              </div>
+                      </div>
+            </div>
+                  </div>  
+          </div>
+     </section>
+     <section class="about" class="py-5">
+            <div class="container">
+                   <div class="row">
+                       <div class="col-lg">
+                          <h2>About Us</h2>
+                            <p style="font-size: 18px;">At Tour and Travel, we believe in creating unforgettable travel experiences. With our extensive network of partners and years<br> of expertise, we offer a wide range of travel services to cater to <br>the diverse needs of our customers. Whether you're looking for<br> arelaxing beach vacation, an adventurous trekking expedition, a cultural tour, or a luxurious getaway, we have the perfect package for you. Our team of experienced travel consultants will assist you <br>in planning every detail of your trip to ensure a seamless and memorable journey.</p>
+                                 <button type="button" class="btn btn-outline-primary" value="name">Read more</button>
+                        </div>
+                            <div class="col-lg">
+                                  <div class ="card shadow">
+                                    <img src="img2.jpg" alt="" width="100%">
+                                 </div>  
+                            </div>  
+                        </div>        
+                      </div>
+            </div>
+      </section>
+      <br>
+     <div class="footer container rounded text-center bg-dark text-md-left p-4">
+          <div class="row text-center text-md-left">
+               <div class="col-lg-3 col-lg-3  mx-auto mt-3">
+              <p> 
+                   <h5 class=" mb-4 font-weight-bold text-white" style="font-size: 30px;font-family:'Times New Roman', Times, serif">Travello</h5>
+              </p>  
+          </div> 
+         <div class="col-lg-2 col-lg-2 col-lg-2  mx-auto mt-3">
+               <h5 class=" mb-4 font-weight-bold text-white">Company</h5>
+               <p>
+                   <a href="#" class="text-white" style="text-decoration: none;">Blog</a>
+               </p>
+               <p>
+                  <a href="#" class="text-white" style="text-decoration: none;">Privacy policy</a>
+               </p>
+               <p>
+                  <a href="#" class="text-white" style="text-decoration: none;">FAQs</a>
+               </p>
+               <p>
+                  <a href="#" class="text-white" style="text-decoration: none;">Contact</a>
+               </p>
+          </div>
+          <div class="col-lg-2 col-lg-2 col-lg-2  mx-auto mt-3">
+               <h5 class=" mb-4 font-weight-bold text-white">Contact us</h5>
+              <p>
+                 <a href="#" class="text-white" style="text-decoration: none;">303, ML Space, DJ Road, Vile Parle (West), Mumbai - 400056.</a>
+              </p>
+             <p>
+                <a href="#" class="text-white" style="text-decoration: none;">+917899453321</a>
+             </p>
+         </div>
+         <div class="col-lg-2 col-lg-2 col-lg-2  mx-auto mt-3">
+            <h5 class=" mb-4 font-weight-bold text-white">Quick link</h5>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none;">Guide</a>
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none;">Careers</a>
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none;">Help center</a>
+            </p>
+        </div>
+        <div class="col-lg-3 col-lg-3  mx-auto mt-3">
+            <h5 class=" mb-4 font-weight-bold text-white">Connect us</h5>
+                <ul class="list-unstyled list-inline">
+                   <li class="list-inline-item">
+                    <a href="#" class="text-white"><i class="fa fa-facebook" aria-hidden="true"></i></a>&nbsp;&nbsp;
+                    <a href="#" class="text-white"><i class="fa fa-twitter" aria-hidden="true"></i></a>&nbsp;&nbsp;
+                    <a href="#" class="text-white"><i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;&nbsp;
+                    <a href="#" class="text-white"><i class="fa fa-linkedin" aria-hidden="true"></i></a>&nbsp;
+                    </li>
+                </ul>    
+        </div>
+      </div>
+      <hr style="color: white;">
+     <div>
+          <p class="text-center text-white">&copy; 2023 Tours and travels.</p>
+      </div>
+</div> 
+</body>
+</html>
